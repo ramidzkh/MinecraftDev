@@ -240,6 +240,10 @@
         <codeFoldingOptionsProvider instance="com.demonwav.mcdev.platform.mixin.folding.MixinFoldingOptionsProvider" />
         <lang.foldingBuilder language="JAVA" implementationClass="com.demonwav.mcdev.platform.mixin.folding.MixinFoldingBuilder"/>
 
+        <applicationService serviceImplementation="com.demonwav.mcdev.platform.fabric.folding.FabricFoldingSettings" />
+        <codeFoldingOptionsProvider instance="com.demonwav.mcdev.platform.fabric.folding.FabricFoldingOptionsProvider" />
+        <lang.foldingBuilder language="JAVA" implementationClass="com.demonwav.mcdev.platform.fabric.folding.FabricFoldingBuilder"/>
+
         <implicitUsageProvider implementation="com.demonwav.mcdev.platform.mixin.insight.MixinImplicitUsageProvider"/>
         <deadCode implementation="com.demonwav.mcdev.platform.mixin.insight.MixinEntryPoint"/>
 
